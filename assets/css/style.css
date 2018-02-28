@@ -13,7 +13,7 @@
 
 h1, h2, h3, h4 {
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
-	color: #4aaaa5!important;
+	color: #2626f7!important;
 }
 
 h1 {
@@ -90,7 +90,7 @@ body{
 
 .me {
 	color: white!important;
-	background-color: #4aaaa5;
+	background-color: #2626f7;
 	padding: 13px;
 	position: fixed;
 }
@@ -116,15 +116,11 @@ p {
 }
 
 .myArticle {
-	width: 650px;
-	background: white;
-	border: 2px solid #dddddd;
-	float: left;
-	margin-bottom: 80px;
+	background: rgba(255, 255, 255, 0.6);
 }
 
 .myArticle h1 {
-	color: #4aaaa5;
+	color: #2626f7;
 	padding: 20px;
 }
 
@@ -138,7 +134,7 @@ p {
 }
 
 .myAside h2 {
-	color: #4aaaa5;
+	color: #2626f7;
 	padding-bottom: 10px;
 }
 
@@ -163,8 +159,8 @@ p {
 	width: 100%;
 	position: fixed;
 	bottom: 0;
-	border-top: 6px solid #4aaaa5;
-	background-color: #666666;
+	border-top: 6px solid #2626f7;
+	background-color: #302f2f;
 	padding-top: 6px;
 }
 
@@ -196,7 +192,7 @@ textarea {
 }
 
 input[type=submit] {
-	background-color: #4aaaa5;
+	background-color: #2626f7;
 	border: none;
 	color: white;
 	text-decoration: none;
@@ -220,7 +216,7 @@ input[type=submit] {
 
 figcaption h2 {
 	color: white!important;
-	background-color: #4aaaa5;
+	background-color: #2626f7;
 	text-align: center;
 	padding: 16px 0;
 	position: relative;
