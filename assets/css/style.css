@@ -70,6 +70,7 @@ a {
 
 a:hover {
 	text-decoration: underline;
+	color: black;
 }
 
 a img:hover {
@@ -78,6 +79,7 @@ a img:hover {
   -moz-transform: rotate(15deg);
   -o-transform: rotate(15deg);
 	transform: rotate(15deg);
+	transition: 1000ms;
 }
 
 body{
@@ -93,6 +95,11 @@ body{
 	background-color: #2626f7;
 	padding: 13px;
 	position: fixed;
+	border-radius: 10px;
+}
+
+.me:hover {
+	color: black!important;
 }
 
 .mainArea {
@@ -212,6 +219,7 @@ input[type=submit] {
 .appIcon {
 	width: 200px;
 	margin: 20px 15px;
+	border-radius: 10px;
 }
 
 figcaption h2 {
@@ -223,6 +231,12 @@ figcaption h2 {
 	top:-115px;
 	width: 200px;
 	margin: auto;
+}
+
+figcaption h2:hover {
+	background-color: rgba(38, 38, 247, 0.8);
+	border-radius: 10px;
+	transition: 1000ms;
 }
 
 .navbar-brand {
