@@ -1,6 +1,21 @@
 /* Not all of these classes will be utilizedin this bootstrap version,
 * and some are overridden by bootstrap.css */
 
+@font-face {
+	font-family: Hylia;
+	src: url(fonts/hylia_serif_beta-regular.otf);
+}
+
+@font-face {
+	font-family: HylianSymbols;
+	src: url(fonts/hylian-symbols.ttf);
+}
+
+@font-face {
+	font-family: AncientHylian;
+	src: url(fonts/ss-ancient-hylian.ttf);
+}
+
 .topContainer {
 	background-color: white;
 	width: 100%;
@@ -12,18 +27,18 @@
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	font-family: 'Hylia', 'Georgia', Times, 'Times New Roman', serif;
 	color: #2626f7!important;
 }
 
 h1 {
 	font-size: 2em;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 h2 {
 	font-size: 1.5em;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 .myHeader {
@@ -85,9 +100,20 @@ a img:hover {
 body{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	font-size: 20px;
 	background: url("../images/gaming-pattern.png");
 	margin-bottom: 110px;
 	padding-top: 40px;
+}
+
+.ancient {
+	font-family: 'AncientHylian', 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.ancient:hover {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
 }
 
 .me {
@@ -206,7 +232,7 @@ input[type=submit] {
 	margin: 20px 0 20px 0;
 	cursor: pointer;
 	width: 112px;
-	font-size: 16px;
+	font-size: 20px;
 	height: 40px;
 }
 
@@ -242,8 +268,8 @@ figcaption h2:hover {
 .navbar-brand {
 	z-index: 999;
 	font-size: 2em;
-	font-weight: bold;
-	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	/* font-weight: bold; */
+	font-family: 'Hylia', 'Georgia', Times, 'Times New Roman', serif;
 }
 
 .sidePanel {
