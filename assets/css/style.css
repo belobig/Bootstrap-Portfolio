@@ -125,7 +125,11 @@ body{
 }
 
 .me:hover {
-	color: black!important;
+	color: #2626f7!important;
+}
+
+.blue:hover {
+	color: #2626f7;
 }
 
 .mainArea {
